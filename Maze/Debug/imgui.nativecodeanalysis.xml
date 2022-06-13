@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1371</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1387</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1399</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1453</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1916</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::IsNavInputTest</FUNCTION>
+    <DECORATED>?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z</DECORATED>
+    <FUNCLINE>1916</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>811</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiColorMod::Col' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiColorMod::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiColorMod@@QAE@XZ</DECORATED>
+    <FUNCLINE>811</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiColorMod::Col</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3512</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateMouseInputs</FUNCTION>
+    <DECORATED>?UpdateMouseInputs@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>3481</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3935</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateDebugToolItemPicker</FUNCTION>
+    <DECORATED>?UpdateDebugToolItemPicker@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>3916</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>4391</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window' contains the same NULL value as 'hovered_window' did. See line 4365 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>FindHoveredWindow</FUNCTION>
+    <DECORATED>?FindHoveredWindow@@YAXXZ</DECORATED>
+    <FUNCLINE>4351</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4353</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4355</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4356</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4357</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4361</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4364</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4365</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4367</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4371</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4372</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4375</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4376</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4381</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4389</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4390</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4393</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4364</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4365</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4367</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4371</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4372</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4375</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4376</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4381</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4389</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4390</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1693</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiSizeCallbackData::UserData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiSizeCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiSizeCallbackData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1693</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiSizeCallbackData::UserData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5160</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateWindowManualResize</FUNCTION>
+    <DECORATED>?UpdateWindowManualResize@ImGui@@YA_NPAUImGuiWindow@@ABUImVec2@@PAHHQAIABUImRect@@@Z</DECORATED>
+    <FUNCLINE>5123</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5323</LINE>
+      <COLUMN>155</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::RenderWindowDecorations</FUNCTION>
+    <DECORATED>?RenderWindowDecorations@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@_NHQBIM@Z</DECORATED>
+    <FUNCLINE>5285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8033</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiPopupPositionPolicy' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::FindBestWindowPosForPopupEx</FUNCTION>
+    <DECORATED>?FindBestWindowPosForPopupEx@ImGui@@YA?AUImVec2@@ABU2@0PAHABUImRect@@2W4ImGuiPopupPositionPolicy@@@Z</DECORATED>
+    <FUNCLINE>8033</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8209</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGetDirQuadrantFromDelta</FUNCTION>
+    <DECORATED>?ImGetDirQuadrantFromDelta@@YAHMM@Z</DECORATED>
+    <FUNCLINE>8206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>10508</LINE>
+      <COLUMN>87</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ShowMetricsWindow::Funcs::NodeColumns</FUNCTION>
+    <DECORATED>?NodeColumns@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPBUImGuiColumns@@@Z</DECORATED>
+    <FUNCLINE>10504</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>10538</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiTreeNodeFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::ShowMetricsWindow::Funcs::NodeWindow</FUNCTION>
+    <DECORATED>?NodeWindow@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPAUImGuiWindow@@PBD@Z</DECORATED>
+    <FUNCLINE>10528</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,1399 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1371</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1387</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1399</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1453</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QAE@PAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1329</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1916</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::IsNavInputTest</FUNCTION>
+    <DECORATED>?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z</DECORATED>
+    <FUNCLINE>1916</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>811</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiColorMod::Col' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiColorMod::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiColorMod@@QAE@XZ</DECORATED>
+    <FUNCLINE>811</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiColorMod::Col</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3512</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateMouseInputs</FUNCTION>
+    <DECORATED>?UpdateMouseInputs@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>3481</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3935</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateDebugToolItemPicker</FUNCTION>
+    <DECORATED>?UpdateDebugToolItemPicker@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>3916</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>4391</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window' contains the same NULL value as 'hovered_window' did. See line 4365 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>FindHoveredWindow</FUNCTION>
+    <DECORATED>?FindHoveredWindow@@YAXXZ</DECORATED>
+    <FUNCLINE>4351</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4353</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4355</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4356</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4357</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4360</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4361</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4364</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4365</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4367</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4371</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4372</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4375</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4376</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4381</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4389</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4390</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4393</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4362</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4364</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4365</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4367</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4371</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4372</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4375</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4376</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4381</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4389</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4390</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4391</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1693</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiSizeCallbackData::UserData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiSizeCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiSizeCallbackData@@QAE@XZ</DECORATED>
+    <FUNCLINE>1693</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiSizeCallbackData::UserData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5160</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateWindowManualResize</FUNCTION>
+    <DECORATED>?UpdateWindowManualResize@ImGui@@YA_NPAUImGuiWindow@@ABUImVec2@@PAHHQAIABUImRect@@@Z</DECORATED>
+    <FUNCLINE>5123</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5323</LINE>
+      <COLUMN>155</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::RenderWindowDecorations</FUNCTION>
+    <DECORATED>?RenderWindowDecorations@ImGui@@YAXPAUImGuiWindow@@ABUImRect@@_NHQBIM@Z</DECORATED>
+    <FUNCLINE>5285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8033</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiPopupPositionPolicy' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::FindBestWindowPosForPopupEx</FUNCTION>
+    <DECORATED>?FindBestWindowPosForPopupEx@ImGui@@YA?AUImVec2@@ABU2@0PAHABUImRect@@2W4ImGuiPopupPositionPolicy@@@Z</DECORATED>
+    <FUNCLINE>8033</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8209</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGetDirQuadrantFromDelta</FUNCTION>
+    <DECORATED>?ImGetDirQuadrantFromDelta@@YAHMM@Z</DECORATED>
+    <FUNCLINE>8206</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>10508</LINE>
+      <COLUMN>87</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ShowMetricsWindow::Funcs::NodeColumns</FUNCTION>
+    <DECORATED>?NodeColumns@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPBUImGuiColumns@@@Z</DECORATED>
+    <FUNCLINE>10504</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>10538</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiTreeNodeFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::ShowMetricsWindow::Funcs::NodeWindow</FUNCTION>
+    <DECORATED>?NodeWindow@Funcs@?1??ShowMetricsWindow@ImGui@@YAXPA_N@Z@SAXPAUImGuiWindow@@PBD@Z</DECORATED>
+    <FUNCLINE>10528</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>941</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowWidgets</FUNCTION>
+    <DECORATED>?ShowDemoWindowWidgets@@YAXXZ</DECORATED>
+    <FUNCLINE>482</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>941</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowWidgets</FUNCTION>
+    <DECORATED>?ShowDemoWindowWidgets@@YAXXZ</DECORATED>
+    <FUNCLINE>482</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>3792</LINE>
+      <COLUMN>97</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>NodeFont</FUNCTION>
+    <DECORATED>?NodeFont@@YAXPAUImFont@@@Z</DECORATED>
+    <FUNCLINE>3772</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3906</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__h_prefilter</FUNCTION>
+    <DECORATED>?stbtt__h_prefilter@@YAXPAEHHHI@Z</DECORATED>
+    <FUNCLINE>3852</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3854</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3855</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3856</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3857</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3858</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3858</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3859</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3860</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3861</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3863</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3866</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3867</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3869</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3870</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3871</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3905</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '!!((pixels[i]==0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3906</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3907</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3905</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '!!((pixels[i]==0))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3906</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3968</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__v_prefilter</FUNCTION>
+    <DECORATED>?stbtt__v_prefilter@@YAXPAEHHHI@Z</DECORATED>
+    <FUNCLINE>3914</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3916</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3917</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3918</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3919</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3921</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3922</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3923</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.27.29110\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3925</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3928</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3929</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3931</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3932</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3933</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3967</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3968</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3969</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3967</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3968</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>701</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddPolyline</FUNCTION>
+    <DECORATED>?AddPolyline@ImDrawList@@QAEXPBUImVec2@@HI_NM@Z</DECORATED>
+    <FUNCLINE>667</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>948</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddConvexPolyFilled</FUNCTION>
+    <DECORATED>?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI@Z</DECORATED>
+    <FUNCLINE>922</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_impl_glfw.cpp</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'GlfwClientApi' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_impl_opengl3.cpp</FILENAME>
+      <LINE>510</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui_ImplOpenGL3_CreateDeviceObjects</FUNCTION>
+    <DECORATED>?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ</DECORATED>
+    <FUNCLINE>497</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>683</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::ButtonEx</FUNCTION>
+    <DECORATED>?ButtonEx@ImGui@@YA_NPBDABUImVec2@@H@Z</DECORATED>
+    <FUNCLINE>656</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>819</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::CollapseButton</FUNCTION>
+    <DECORATED>?CollapseButton@ImGui@@YA_NIABUImVec2@@@Z</DECORATED>
+    <FUNCLINE>803</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>828</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiAxis' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::GetWindowScrollbarID</FUNCTION>
+    <DECORATED>?GetWindowScrollbarID@ImGui@@YAIPAUImGuiWindow@@W4ImGuiAxis@@@Z</DECORATED>
+    <FUNCLINE>828</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1214</LINE>
+      <COLUMN>88</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ProgressBar</FUNCTION>
+    <DECORATED>?ProgressBar@ImGui@@YAXMABUImVec2@@PBD@Z</DECORATED>
+    <FUNCLINE>1187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1214</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ProgressBar</FUNCTION>
+    <DECORATED>?ProgressBar@ImGui@@YAXMABUImVec2@@PBD@Z</DECORATED>
+    <FUNCLINE>1187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1371</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiSeparatorFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::Separator</FUNCTION>
+    <DECORATED>?Separator@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>1363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1397</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::SplitterBehavior</FUNCTION>
+    <DECORATED>?SplitterBehavior@ImGui@@YA_NABUImRect@@IW4ImGuiAxis@@PAM2MMMM@Z</DECORATED>
+    <FUNCLINE>1377</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1533</LINE>
+      <COLUMN>127</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::BeginCombo</FUNCTION>
+    <DECORATED>?BeginCombo@ImGui@@YA_NPBD0H@Z</DECORATED>
+    <FUNCLINE>1499</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1919</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::DataTypeApplyOpFromText</FUNCTION>
+    <DECORATED>?DataTypeApplyOpFromText@ImGui@@YA_NPBD0HPAX0@Z</DECORATED>
+    <FUNCLINE>1842</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>1925</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::DataTypeApplyOpFromText</FUNCTION>
+    <DECORATED>?DataTypeApplyOpFromText@ImGui@@YA_NPBD0HPAX0@Z</DECORATED>
+    <FUNCLINE>1842</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>3210</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputTextFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::TempInputScalar</FUNCTION>
+    <DECORATED>?TempInputScalar@ImGui@@YA_NABUImRect@@IPBDHPAX1PBX3@Z</DECORATED>
+    <FUNCLINE>3199</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>4740</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAMH@Z</DECORATED>
+    <FUNCLINE>4612</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>4742</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'sscanf'.</DESCRIPTION>
+    <FUNCTION>ImGui::ColorEdit4</FUNCTION>
+    <DECORATED>?ColorEdit4@ImGui@@YA_NPBDQAMH@Z</DECORATED>
+    <FUNCLINE>4612</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>6207</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiPlotType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::PlotEx</FUNCTION>
+    <DECORATED>?PlotEx@ImGui@@YAHW4ImGuiPlotType@@PBDP6AMPAXH@Z2HH1MMUImVec2@@@Z</DECORATED>
+    <FUNCLINE>6207</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>6513</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'window'. See line 6488 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>ImGui::EndMenuBar</FUNCTION>
+    <DECORATED>?EndMenuBar@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>6485</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6487</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6488</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6490</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6493</LINE>
+        <COLUMN>108</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6495</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6496</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6498</LINE>
+        <COLUMN>128</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6513</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+        <FILENAME>imgui_widgets.cpp</FILENAME>
+        <LINE>6513</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>7652</LINE>
+      <COLUMN>38</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiButtonFlagsPrivate_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::TabItemEx</FUNCTION>
+    <DECORATED>?TabItemEx@ImGui@@YA_NPAUImGuiTabBar@@PBDPA_NH@Z</DECORATED>
+    <FUNCLINE>7522</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>2577</LINE>
+      <COLUMN>129</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ScaleValueFromRatioT</FUNCTION>
+    <DECORATED>??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z</DECORATED>
+    <FUNCLINE>2538</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>2582</LINE>
+      <COLUMN>103</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ScaleValueFromRatioT</FUNCTION>
+    <DECORATED>??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z</DECORATED>
+    <FUNCLINE>2538</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>2602</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::ScaleValueFromRatioT</FUNCTION>
+    <DECORATED>??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z</DECORATED>
+    <FUNCLINE>2538</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\externalLibraries\imgui\Imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>363</LINE>
+      <COLUMN>95</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImLerp</FUNCTION>
+    <DECORATED>??$ImLerp@_J@@YA_J_J0M@Z</DECORATED>
+    <FUNCLINE>363</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\external\Imgui\</FILEPATH>
+      <FILENAME>imgui_widgets.cpp</FILENAME>
+      <LINE>2014</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImAtoi</FUNCTION>
+    <DECORATED>??$ImAtoi@_J@@YAPBDPBDPA_J@Z</DECORATED>
+    <FUNCLINE>2007</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\</FILEPATH>
+      <FILENAME>MazeSolver.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'MazeSolver::previousNode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>MazeSolver::{ctor}</FUNCTION>
+    <DECORATED>??0MazeSolver@@QAE@AAVMazeGenerator@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MazeSolver::previousNode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\</FILEPATH>
+      <FILENAME>Renderer.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Renderer::verticesSize' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Renderer::{ctor}</FUNCTION>
+    <DECORATED>??0Renderer@@QAE@I@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Renderer::verticesSize</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

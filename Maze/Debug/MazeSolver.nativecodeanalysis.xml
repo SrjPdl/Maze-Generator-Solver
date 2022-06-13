@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>F:\e\study\II-II\Programs\C_C++\DSA\Maze generator and solver\Maze\</FILEPATH>
+      <FILENAME>MazeSolver.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'MazeSolver::previousNode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>MazeSolver::{ctor}</FUNCTION>
+    <DECORATED>??0MazeSolver@@QAE@AAVMazeGenerator@@@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>MazeSolver::previousNode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

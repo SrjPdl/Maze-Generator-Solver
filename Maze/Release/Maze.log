@@ -1,0 +1,28 @@
+﻿  Application.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Shader.h(4,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Camera2D.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Camera2D.h(3,9): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  imgui.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui.cpp(719,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui_demo.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui_demo.cpp(68,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui_draw.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui_draw.cpp(29,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui_impl_glfw.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui_impl_glfw.cpp(40,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui_impl_opengl3.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui_impl_opengl3.cpp(76,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  imgui_widgets.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\external\Imgui\imgui_widgets.cpp(35,10): fatal error C1083: Cannot open include file: 'imgui.h': No such file or directory
+  main.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Shader.h(4,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  MazeGenerator.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Vertex.h(2,10): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  MazeSolver.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Vertex.h(2,10): fatal error C1083: Cannot open include file: 'glm\glm.hpp': No such file or directory
+  Renderer.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Renderer.h(3,9): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Shader.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Shader.h(4,10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Window.cpp
+C:\Users\Suraj\Downloads\Maze generator and solver\Maze\Window.h(3,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
